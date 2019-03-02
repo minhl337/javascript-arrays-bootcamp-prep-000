@@ -46,7 +46,4 @@ var chocolateBars=[
   function removeElementFromEndOfArray(x){
     var y=x.slice(0,x.length-1);
     return y;
-
-    var z=x.unshift(y)
-    return z;
   }
