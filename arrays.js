@@ -6,6 +6,7 @@ var chocolateBars=[
   ]
   
   function addElementToBeginningOfArray(x,y){
+<<<<<<< HEAD
     var z=[y,...x];
     return z;
   }
@@ -46,4 +47,8 @@ var chocolateBars=[
   function removeElementFromEndOfArray(x){
     var y=x.slice(0,x.length-1);
     return y;
+=======
+    var z=x.unshift(y)
+    return z;
+>>>>>>> 1fc8d110ad0d630af37b382d69e9406d0a6dcaf8
   }
